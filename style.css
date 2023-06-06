@@ -1,0 +1,6 @@
+.bg-container{
+    background: #90CECA;
+    background: -moz-radial-gradient(center, #90CECA 0%, #FF6BDB 50%, #FFDE52 100%);
+    background: -webkit-radial-gradient(center, #90CECA 0%, #FF6BDB 50%, #FFDE52 100%);
+    background: radial-gradient(ellipse at center, #90CECA 0%, #FF6BDB 50%, #FFDE52 100%);
+}
