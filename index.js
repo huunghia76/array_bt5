@@ -97,7 +97,7 @@ function exercise5() {
     var numEven = -1;
 
     for (let index = arrNum; index > 0; index--) {
-        if (arrBt5[index] % 2 === 0 && arrBt5[index] > 0) {
+        if (arrBt5[index] % 2 === 0 ) {
             numEven = arrBt5[index]
             break
         }
@@ -188,6 +188,7 @@ function exercise8() {
             }
         }
     }
+   
 
     document.getElementById('result8').innerHTML = "Mảng hiện tại: " + arrBt8 + " Số nguyên tố đầu tiên trong mảng là : <span class='text-danger'> " + number + '</span> ';
 }
